@@ -1,6 +1,6 @@
 # Nitro-Input-AI ⚡
 
-A powerful browser extension that enhances any text input with AI assistance. When you type in any text field, a smart <svg width="16" height="18" viewBox="0 0 299 336" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M201.5 52.5C83.0001 2.67029e-05 -43.4999 145 56.5004 260.5L46.5001 278.5C-74.5 157 63 -37 214 38L201.5 52.5Z" fill="#FEB657"/><path d="M93.5 286.5C231 348.5 338 176.5 239.5 78.5L249 62C372.5 169.5 244.5 385.5 78.5 301L93.5 286.5Z" fill="#FEB657"/><path d="M269.5 0.5L154.5 117L166 168.5L269.5 0.5Z" fill="#FEB657"/><path d="M142.5 218L130.5 168.5L26.5 335.5L142.5 218Z" fill="#FEB657"/><path d="M249 126H214L147.5 239.5H183.5L249 126Z" fill="#FEB657"/><path d="M84 210.5L150.5 97.5H112.5L46.5001 210.5H84Z" fill="#FEB657"/></svg> button appears. Click it to get AI-powered suggestions, improvements, or responses using Google's Gemini API.
+A powerful browser extension that enhances any text input with AI assistance. When you type in any text field, a smart ![Gemini Button](icons\icon-16.png) button appears. Click it to get AI-powered suggestions, improvements, or responses using Google's Gemini API.
 
 ## Features
 - **AI-Powered Assistance**: Integrates with Google Gemini API for intelligent text processing
