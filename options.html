@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>NITRO ✨ Options</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            margin: 24px;
+            max-width: 760px;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin-top: 0;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 16px 18px 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            padding: 0 6px;
+            font-weight: 600;
+        }
+
+        label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin: 6px 0;
+        }
+
+        input[type="text"],
+        select {
+            padding: 4px 6px;
+        }
+
+        .row {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .muted {
+            color: #555;
+            font-size: 12px;
+        }
+
+        button.primary {
+            background: #6a18ff;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        button.primary:active {
+            transform: translateY(1px);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #666;
+        }
+
+        .save-status {
+            margin-left: 12px;
+            font-size: 12px;
+            opacity: 0;
+            transition: opacity .25s;
+        }
+
+        .save-status.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>NITRO ✨ Options</h1>
+    <form id="spark-options">
+        <fieldset>
+            <legend>Behavior</legend>
+            <label><input type="checkbox" name="excludePassword"> Exclude password fields <span
+                    class="muted">(privacy)</span></label>
+            <label><input type="checkbox" name="enableShadowDOM"> Enable Shadow DOM support</label>
+            <!-- Removed live preview + copy modes per simplification -->
+            <label>
+                Anchor mode:
+                <select name="anchorMode">
+                    <option value="top-right">Top right</option>
+                    <option value="center-right">Center right</option>
+                </select>
+            </label>
+            <label style="flex-direction:column; align-items:flex-start;">
+                Gemini API Key
+                <input name="geminiApiKey" type="text" placeholder="AIza..." style="width:100%;" />
+                <span class="muted">Stored locally (synced if available). Not sent except to Google.</span>
+            </label>
+            <label style="flex-direction:column; align-items:flex-start;">
+                Model
+                <input name="geminiModel" type="text" value="gemini-2.5-flash" />
+            </label>
+            <label style="flex-direction:column; align-items:flex-start;">
+                Response style
+                <select name="geminiStyle">
+                    <option value="">Default</option>
+                    <option value="short">Short</option>
+                    <option value="detailed">Detailed</option>
+                    <option value="step">Step-by-step</option>
+                    <option value="list">List</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Theme</legend>
+            <label>
+                Theme style:
+                <select name="darkModeStyle">
+                    <option value="auto">Auto (match system)</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                </select>
+            </label>
+        </fieldset>
+        <button class="primary" type="submit">Save</button><span class="save-status" id="saveStatus">Saved</span>
+    </form>
+    <footer>
+        NITRO Input Helper ✨ – Settings are synced (if available).<br>
+        Report issues or request features any time.
+    </footer>
+    <script src="options.js"></script>
+</body>
+
+</html>
