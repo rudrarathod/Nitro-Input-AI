@@ -1,4 +1,4 @@
-# Nitro-Input-AI ⚡
+# Nitro-Input-AI ![Gemini Button](icons/icon-32.png) 
 
 A powerful browser extension that enhances any text input with AI assistance. When you type in any text field, a smart ![Gemini Button](icons/icon-16.png) button appears. Click it to get AI-powered suggestions, improvements, or responses using Google's Gemini API.
 
