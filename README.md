@@ -90,8 +90,6 @@ A powerful browser extension that transforms any text input with AI assistance. 
 
 ## 🌐 Supported Browsers
 
-## 🌐 Supported Browsers
-
 <table>
 <tr>
 <th>Browser</th>
@@ -231,7 +229,6 @@ Choose your browser and navigate to:
 
 ---
 
-## ⚙️ Configuration
 ## ⚙️ Configuration
 
 Customize Nitro-Input-AI to match your workflow and preferences.
@@ -913,75 +910,6 @@ Your privacy and security are our top priorities. Here's how we protect you:
 - ✅ **No hidden behavior** - What you see is what you get
 
 [View Source Code on GitHub →](https://github.com/rudrarathod/Nitro-Input-AI)
-
----
-
-## 🤝 Contributing
-
----
-
-### 📱 Social Media Posts
-**Before**: "just launched my new product check it out"
-
-**After** (Engaging): "🚀 Excited to announce the launch of my new product! After months of hard work, it's finally here. Check it out and let me know what you think! #ProductLaunch #Innovation"
-
-**Use Cases**:
-- Generate engaging captions
-- Add relevant hashtags
-- Improve post readability
-- Create call-to-action phrases
-
----
-
-### 💻 Code Comments & Documentation
-**Before**: "this function does stuff with data"
-
-**After** (Clear): "Processes user input data by validating format, sanitizing content, and returning a normalized object suitable for database storage."
-
-**Use Cases**:
-- Write clear code comments
-- Generate API documentation
-- Explain complex algorithms
-- Create README sections
-
----
-
-### ✍️ Creative Writing
-**Before**: "The sunset was nice"
-
-**After** (Descriptive): "The sunset painted the sky in brilliant hues of orange and pink, casting a warm glow across the horizon as day gracefully yielded to the approaching night."
-
-**Use Cases**:
-- Enhance descriptive passages
-- Get story continuation ideas
-- Improve dialogue flow
-- Expand on character descriptions
-
----
-
-### 💼 Professional Communication
-**Before**: "cant make it to meeting sorry"
-
-**After** (Professional): "I sincerely apologize, but I won't be able to attend the meeting. Could we reschedule to a time that works for everyone?"
-
-**Use Cases**:
-- Polish Slack/Teams messages
-- Write professional meeting notes
-- Draft polite decline responses
-- Improve business correspondence
-
----
-
-### 🌍 Language Learning
-**Before**: "I go to store yesterday for buy food"
-
-**After** (Corrected): "I went to the store yesterday to buy food."
-
-**Use Cases**:
-- Grammar corrections
-- Vocabulary suggestions
-- Sentence structure improvements
-- Idiomatic expression help
 
 ---
 
