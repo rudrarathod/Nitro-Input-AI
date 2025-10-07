@@ -1084,7 +1084,7 @@ If you find Nitro-Input-AI useful, please consider:
 
 ---
 
-**Made with ❤️ by the Nitro-Input-AI Team**
+**Made with ❤️ by the Rudra Rathod**
 
 *Empowering your text input with AI, one field at a time* ✨
 
